@@ -1,6 +1,6 @@
 {
     "name": "intl",
-    "version": "0.1.4",
+    "version": "0.1.4-e2e",
     "description": "Polyfill the ECMA-402 Intl API (except collation)",
     "main": "Intl.complete.js",
     "directories": {
@@ -18,7 +18,7 @@
     "scripts": {
         "build": "grunt --complete",
         "lint": "jshint Intl.js",
-        "test": "cd tests && node noderunner.js && node saucelabs.js"
+        "test": "cd tests && node noderunner.js"
     },
     "repository": {
         "type": "git",
