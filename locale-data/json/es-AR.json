@@ -889,8 +889,8 @@
                 "negativePattern": "-{number}"
             },
             "currency": {
-                "positivePattern": "{number} {currency}",
-                "negativePattern": "-{number} {currency}"
+                "positivePattern": "{currency} {number}",
+                "negativePattern": "-{currency} {number}"
             },
             "percent": {
                 "positivePattern": "{number}%",
